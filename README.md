@@ -10,8 +10,11 @@ Step 1: Import your Spring Boot project
 7. Select the extracted Spring Initializr project folder (the folder containing pom.xml).
 8. Eclipse should automatically detect your project.
 9. Click Finish.
+
+    
 Step 2: Verify the project
 In Package Explorer, you should see something like:
+
 college-erp
  ├── src/main/java
  ├── src/main/resources
@@ -21,6 +24,7 @@ college-erp
  └── pom.xml
 
 Wait until Maven finishes downloading dependencies.
+
 Step 3: Enable Git using EGit
 1. Right-click your college-erp project.
 2. Select Team → Share Project.
